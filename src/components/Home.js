@@ -42,6 +42,7 @@ function Home() {
     function showBackdrop(){
         setBackdrop(isOpenLeft || isOpenMiddle || isOpenRight)
     }
+    
     useEffect(() => {
         showBackdrop()
     }, [isOpenLeft, isOpenMiddle, isOpenRight])
