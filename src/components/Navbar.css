@@ -1,0 +1,95 @@
+nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-family: "REM", sans-serif;
+    z-index: 9999;
+}
+.navbar-content-wrap{
+    width: 100%;
+}
+.nav-content-pc-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+}
+nav a{
+    margin: 0 29px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1cb0f6;
+    transition: color 0.2s;
+}
+nav a:hover{
+    /*color: #0f88b5;*/
+    color: #000000;
+}
+
+h1.nav-heading{
+    font-size: 24px;
+    margin: 0 6vh;
+    color: black;
+}
+.nav-heading-mobile{
+    position: absolute;
+    left: 7.5%;
+    font-size: 30px;
+    margin: 0;
+}
+
+#overlayMenu{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    z-index: 100;
+    transition: all 0.2s ease;
+
+}
+#overlayMenu.overlayOpen{
+    bottom: 0;
+}
+.overlayList{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    display: grid;
+    place-items: center;
+    row-gap: 10%;
+}
+.overlayLi{
+    font-size: 30px;
+}
+.hamburger-menu-wrap{
+    position: fixed;
+    right: 0;
+    margin: 0 7.5% 0 0;
+    z-index: 999999;
+}
+
+/*--------------------RESPONSIVE STYLES--------------------*/
+
+@media (max-width: 600px){
+    nav a{
+        margin: 0 12.5px;
+    }
+    h1.nav-heading{
+        margin: 0 15px;
+    }
+}
