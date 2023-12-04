@@ -44,26 +44,26 @@ function Navbar(){
             <nav>
             <div className="navbar-content-wrap">
                 {menuBtn ? (
-                        <div id="overlayMenu" className={overlay ? "overlayOpen" : ""}>
-                            <ul className="overlayList">
-                                <li className="overlayLi"><NavLink to="/">Domů</NavLink></li>
-                                <li className="overlayLi"><NavLink to="/o-nas">O nás</NavLink></li>
-                                <li className="overlayLi"><NavLink to="/">Příběhy</NavLink></li>
-                                <li className="overlayLi"><a href="https://bewit.love/" target="_blank">Bewit</a></li>
-                            </ul>
-                        </div>
-                    ) : (
-                        <div className="nav-content-pc-wrap">
-                           <ul>
-                                <li><NavLink to="/">Domů</NavLink></li>
-                                <li><NavLink to="/o-nas">O nás</NavLink></li>
-                            </ul>
-                            <h1 className="nav-heading">ALG</h1>
-                            <ul>
-                                <li><NavLink to="/pribehy">Příběhy</NavLink></li>
-                                <li><a href="https://bewit.love/" target="_blank">Bewit</a></li>
-                            </ul> 
-                        </div>
+                    <div id="overlayMenu" className={overlay ? "overlayOpen" : ""}>
+                        <ul className="overlayList">
+                            <li className="overlayLi"><NavLink to="/">Domů</NavLink></li>
+                            <li className="overlayLi"><NavLink to="/o-nas">O nás</NavLink></li>
+                            <li className="overlayLi"><NavLink to="/">Příběhy</NavLink></li>
+                            <li className="overlayLi"><a href="https://bewit.love/" target="_blank">Bewit</a></li>
+                        </ul>
+                    </div>
+                ) : (
+                    <div className="nav-content-pc-wrap">
+                        <ul>
+                            <li><NavLink to="/">Domů</NavLink></li>
+                            <li><NavLink to="/o-nas">O nás</NavLink></li>
+                        </ul>
+                        <h1 className="nav-heading">ALG</h1>
+                        <ul>
+                            <li><NavLink to="/pribehy">Příběhy</NavLink></li>
+                            <li><a href="https://bewit.love/" target="_blank">Bewit</a></li>
+                        </ul> 
+                    </div>
                     )}
                 </div>
                 
