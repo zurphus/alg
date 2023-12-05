@@ -48,9 +48,9 @@ function Home() {
     
     return (
         <>
-            {
+            {/*
                 backdrop && <Backdrop />
-            }
+            */}
             <main>
                 <section id="products-section">
                         <img onClick={openDialogLeft} className="product product-left-hover" id="left-product" src={dialogData[0].image} alt="coldet bottle product"></img>
