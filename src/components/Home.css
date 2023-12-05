@@ -132,6 +132,7 @@ dialog p{
     z-index: 999;
 }
 .buttons{
+    box-sizing: border-box;
     background-color: #1cb0f6;
     border: 3px solid #1cb0f6;
     padding: 10px 15px 9px;

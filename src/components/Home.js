@@ -106,7 +106,7 @@ function Home() {
                 </section>
             </main>
             <footer>
-                <p className="copyright-text">copyright</p>
+                <p className="copyright-text">© 2023</p>
             </footer>
         </>
     )
