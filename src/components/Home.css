@@ -201,11 +201,7 @@ footer{
         text-align: center; 
     }
 }
-@media (max-width: 415px){
-    #buy-set-button{
-        width: 207.5px;
-    }
-}
+
 @media (max-width: 400px){
     nav ul{
         display: none;
